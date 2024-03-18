@@ -11,4 +11,8 @@ h1, h2, h3, a, p, span, img {
     font-size: medium;
     font-weight: 400;
     color: rgb(148 163 184);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
