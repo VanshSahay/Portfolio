@@ -4,10 +4,10 @@ import './index.css'
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar/>
       <Header/>
-    </div>
+    </>
   )
 }
 
