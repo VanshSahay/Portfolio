@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-h1, h2, h3, a, p, span {
+div, svg, nav, a {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, a, p, span, img {
     font-family: "Rubik", sans-serif;
     font-size: medium;
     font-weight: 400;
-    color: white;
+    color: rgb(148 163 184);
 }
