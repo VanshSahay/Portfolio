@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 h1, h2, h3, a, p, span {
-    font-family: "Lexend Zetta", sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-size: medium;
     font-weight: 400;
     color: white;
 }
