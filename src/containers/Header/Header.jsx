@@ -12,20 +12,24 @@ function Header() {
           <div id='title-section' className='h-full border-t flex justify-between border-white/[0.1]'>
             <h1 className='text-7xl font-black tracking-widest text-white py-24 px-20' style={{fontFamily: "Bebas Neue"}}>RECREATING<br/>FUTURES</h1>
             <a href="#">
-              <img src="../../../plus.svg" className='text-white py-24 px-24' alt="" />
+              <img src="../../../plus.svg" className='text-white py-24 px-24 transition hover:rotate-90 duration-300' alt="" />
             </a>
           </div>
           <div id='nav-section' className='grid grid-cols-2 h-full border-t border-l border-white/[0.1]'>
-            <div className='h-full w-full border-l border-white/[0.1] flex justify-center'>
-              <a href="#">
-                <img src="../../../left-arrow.svg" className='py-36' alt="" />
-              </a>
-            </div>
-            <div className='h-full w-full border-l border-white/[0.1] flex justify-center'>
-              <a href="#">
-                <img src="../../../right-arrow.svg" className='py-36' alt="" />
-              </a>
-            </div>
+            <button>
+              <div className='h-full w-full border-l border-white/[0.1] flex justify-center transition hover:bg-[#0a0f23] duration-300'>
+                <a href="#">
+                  <img src="../../../left-arrow.svg" className='py-36' alt="" />
+                </a>
+              </div>
+            </button>
+            <button>
+              <div className='h-full w-full border-l border-white/[0.1] flex justify-center transition hover:bg-[#0a0f23] duration-300'>
+                <a href="#">
+                  <img src="../../../right-arrow.svg" className='py-36' alt="" />
+                </a>
+              </div>
+            </button>
           </div>
         </article>
         <article className='grid h-full'></article>
