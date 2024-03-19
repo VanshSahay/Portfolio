@@ -23,7 +23,7 @@ function Navbar() {
         </a>
       </div>
       <div id='nav-contact-section' className='flex gap-4 py-10 px-8 border-l border-white/[0.1] grow box-border items-center justify-center'>
-        <a href="#">GET IN TOUCH</a>
+        <a href="mailto:vansh.sahay1234@gmail.com">GET IN TOUCH</a>
       </div>
     </nav>
   )
