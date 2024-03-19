@@ -16,6 +16,41 @@
         margin: 0px;
         overflow: hidden;
       }
+
+      body > div > div > main > article {
+        transition: transform 400ms ease;
+      }
+
+      body > div > div > main > article[data-status="inactive"] {
+        transform: translateX(-100%);
+      }
+      body > div > div > main > article[data-status="inactive"] {
+        transform: translateX(-100%);
+        transition: none;
+      }
+
+      body > div > div > main > article[data-status="active"] {
+        transform: translateX(0%);
+      }
+
+      body > div > div > main > article[data-status="before"] {
+        transform: translateX(-100%);
+      }
+
+      body > div > div > main > article[data-status="after"] {
+        transform: translateX(100%);
+      }
+
+      body > div > div > main > article[data-status="becoming-active-from-before"] {
+        transform: translateX(-100%);
+        transition: none;
+      }
+
+      body > div > div > main > article[data-status="becoming-active-from-after"] {
+        transform: translateX(100%);
+        transition: none;
+      }
+
     </style>
     <title>portfolio</title>
   </head>
